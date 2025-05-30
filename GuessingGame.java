@@ -6,7 +6,7 @@ public class GuessingGame {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
-        int randomNumber = random.nextInt(100) + 1; // Generates a number between 1 and 100
+        int randomNumber = random.nextInt(100) + 1;
         int guess = 0;
         int numberOfTries = 0;
         boolean hasGuessedCorrectly = false;

@@ -23,3 +23,4 @@ public class methodpractice3 {
         return solution;
     }
 }
+      

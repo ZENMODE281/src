@@ -20,7 +20,7 @@ public class newarraypractice {
         //printing
 
         for (int i = 0; i < myList.length; i++) {
-            System.out.print(myList[i] + " ");
+            System.out.println(myList[i] + " ");
         }
 
         //summation
