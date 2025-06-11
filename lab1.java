@@ -2,21 +2,21 @@ import java.util.Scanner;
 public class lab1 {
     public static void main(String[] args) {
         // question1 
-        System.out.println("Welcome to java programming! \n learn how to read input and display output");
+        System.out.println("Welcome to java programming! \nlearn how to read input and display output");
 
 
         //question2
 
         Scanner scan  = new Scanner(System.in);
 
-        System.out.println("Enter your first number!");
+        System.out.print("Enter your first number: ");
 
-        double firstNumber = scan.nextInt();
+        double firstNumber = scan.nextDouble();
 
 
-        System.out.println("Enter your second number!");
+        System.out.print("Enter your second number: ");
 
-        double secondNumber = scan.nextInt();
+        double secondNumber = scan.nextDouble();
 
         double result = firstNumber + secondNumber;
 
@@ -24,11 +24,15 @@ public class lab1 {
 
         // question 3
 
-        System.out.println("Enter your first name!");
+        System.out.print("Enter your first name: ");
 
         String userFirstnm = scan.nextLine();
 
-        System.out.println("Enter your favourite color");
+        scan.nextLine();
+
+        System.out.print("Enter your favourite color: ");
+
+        
 
         String usercolor = scan.nextLine();
 

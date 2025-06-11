@@ -18,7 +18,7 @@ public class task {
         array[i] = scan.nextInt();
     }
 
-    for (int i = 0; i < array.length; i++) {
+    for (int i = 0; i < array.length; i++) {  
         if (array[i] > maxValue) {
             maxValue = array[i];
             maxIndex = i;
@@ -34,6 +34,7 @@ public class task {
     
     System.out.println("The highest value is " + maxIndex + " \n while the total is " + total);
     
+    scan.close();
   }  
 
 
