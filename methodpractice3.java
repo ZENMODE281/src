@@ -15,12 +15,16 @@ public class methodpractice3 {
         
         int result = subtraction(num1, num2);
         System.out.println("The result of subtraction is: " + result);
+
+        scan.close();
     }
 
     
     static int subtraction(int num1, int num2) {
         int solution = num1 - num2;
         return solution;
+
+        
     }
 }
       
