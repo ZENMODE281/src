@@ -16,7 +16,7 @@ public class question2 {
         }
     
         public static int mortgage(double money, float interestRate, double payment) {
-            int years = 0;
+            int years  = 0;
     
             while (money > 0) {
                 

@@ -8,6 +8,7 @@ public class InvestmentCalculator {
         double annualInterestRate = 0;
         int numberOfYears = 0;
 
+
         try {
             System.out.print("Enter investment amount: ");
             investmentAmount = Double.parseDouble(input.nextLine());
@@ -44,3 +45,7 @@ public class InvestmentCalculator {
         input.close();
     }
 }
+
+
+
+
